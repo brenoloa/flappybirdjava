@@ -46,7 +46,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         imagemPipeBaixo = new ImageIcon("C:/Users/Pichau/Downloads/flappybirdjava/src/images/pipebaixo.png").getImage();
         imagemChao = new ImageIcon("C:/Users/Pichau/Downloads/flappybirdjava/src/images/ground.png").getImage();
 
-
+        // vetor pra transf em gif o passaro batendo asa com timer
         imagensPassaro = new Image[]{
                 new ImageIcon("C:/Users/Pichau/Downloads/flappybirdjava/src/images/bluebird-upflap.png").getImage(),
                 new ImageIcon("C:/Users/Pichau/Downloads/flappybirdjava/src/images/bluebird-midflap.png").getImage(),
