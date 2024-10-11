@@ -7,7 +7,7 @@ public class Bird {
     int contadorQuadros = 0;
     int atrasoQuadro = 10;
     int posicaoInicialY;
-
+    //setando pos e gif das imagens
     public Bird(int x, int y, int largura, int altura, Image[] imagens) {
         this.x = x;
         this.y = y;
