@@ -4,6 +4,7 @@ public class Ground {
     int x, y, largura, altura;
     Image imagem;
 
+    //setando apenas dimensao e posicao do chao
     public Ground(int x, int y, int largura, int altura, Image imagem) {
         this.x = x;
         this.y = y;
