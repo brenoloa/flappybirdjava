@@ -5,6 +5,7 @@ public class Pipe {
     Image imagem;
     boolean passou = false;
 
+    //set posicao tamanho do pip a logica de movimento ta no flappy msm
     public Pipe(int x, int y, int largura, int altura, Image imagem) {
         this.x = x;
         this.y = y;
